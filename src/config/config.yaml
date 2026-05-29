@@ -11,3 +11,11 @@ training:
 
 mlflow:
   experiment_name: retail_forecasting
+
+data:
+  train_path: data/raw/train.csv
+  store_path: data/raw/store.csv
+  processed_path: data/processed/master_dataset.csv
+
+logging:
+  log_file: logs/project.log
