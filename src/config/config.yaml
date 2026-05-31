@@ -19,3 +19,6 @@ data:
 
 logging:
   log_file: logs/project.log
+
+validation:
+  report_path: artifacts/validation_report.json
